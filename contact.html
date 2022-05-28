@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/template-head.js"></script>
+    <title>DL INGENIERIA - Contacto</title>
+</head>
+
+<body>
+    <!-- start barra de navegacion -->
+    <script src="js/template-nav.js"></script>
+    <!-- end barra de navegacion -->
+    <main>
+
+        <div class="main_form">
+            <h1 style="color: rgb(140, 0, 0); text-align: center;">Comunicate con nosotros</h1>
+            <form action="confirmation.html" target="self" id="contact-form">
+                <div class="input_text">
+                    <input type="text" class="field" id="firstname_form" name="firstname" placeholder="Nombre*" required>
+                    <input type="text" class="field" id="surname_form" name="surname" placeholder="Apellido*"
+                        required><br>
+                    <input type="email" class="field" id="email_form" name="email" placeholder="Correo electrónico*"
+                        required>
+                    <input type="number" class="field" id="telnumber_form" name="telnumber"
+                        placeholder="Telefono de contacto*"><br>
+                    <input type="text" class="field" id="comp_name_form" name="comp_name" placeholder="Razón Social">
+                    <select name="service" class="field" id="service_form" required>
+                        <option selected value="none">Elija el servicio*</option>
+                        <option value="asesoramiento">Asesoramiento</option>
+                        <option value="adquisiciones">Adquisiciones</option>
+                        <option value="postventa">Postventa</option>
+                    </select><br>
+                    <textarea class="field" id="message_form" name="message" placeholder="Deje su mensaje*"
+                        required></textarea><br>
+
+                    <span><input type="submit" value="Enviar" id="form-button" onclick="validation()"></span>
+                </div>
+
+            </form>
+            <script src="js/form-validation.js"></script>
+        </div>
+        <div class="iframe">
+            <h3 class="titles">Dónde estamos</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.1201580848142!2d-58.37242488255617!3d-34.59808419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3bba8b6433f7845!2sTorre%20Catalinas%20Plaza!5e0!3m2!1ses-419!2sar!4v1653479500783!5m2!1ses-419!2sar"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <script src="js/template-footer.js"></script>
+</body>
+
+</html>
