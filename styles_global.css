@@ -1,0 +1,25 @@
+* {
+    font-family: Poppins, 'Square Peg',Tapestry, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(223, 250, 255);
+}
+
+/* para que los links siempre sean blancos, si quiero otro color, lo subreescribo con un style en la etiqueta */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a:active {
+    color: white;
+}

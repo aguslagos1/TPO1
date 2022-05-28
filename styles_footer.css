@@ -1,0 +1,6 @@
+.container_footer {
+    background-color: rgb(140, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}

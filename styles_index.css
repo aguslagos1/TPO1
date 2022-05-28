@@ -1,0 +1,158 @@
+#img-intercambiadores-de-placas {
+    width: 100vw;
+    /* margin-top: ; */
+    position: inherit;
+    z-index: -1;
+    margin-top: 67px;
+
+}
+
+#title_home {
+    margin-top: -650px;
+    padding-bottom: auto;
+    padding-top: 10%;
+    padding-left: 65px;
+    color: rgb(202, 70, 70);
+    font-size: 3.5em;
+    line-height: 75%;
+}
+
+.titles_marketing {
+    width: 40vw;
+    margin-top: 200px;
+    padding: 5%;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    color: blue;
+}
+
+hr {
+    width: 100%;
+    background-color: blue;
+    height: 3px;
+    border: none;
+    z-index: 1;
+}
+
+.container_flex_environ {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    word-spacing: break-all;
+}
+
+.item_flex_environ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 20vw;
+    height: 20vw;
+    padding: 0%;
+    position: relative;
+    border-radius: 100%;
+    background-color: rgb(52, 52, 255);
+
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    line-height: 100%;
+}
+
+.fa-envira {
+    color: rgb(0, 255, 0);
+}
+
+.container_flex_environ p {
+    margin: 0;
+}
+
+#img-industria-ingenieros {
+    width: 100vw;
+    margin-top: 1%;
+    margin-bottom: -60%;
+}
+
+.container_flex_clients {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+    flex-wrap: wrap;
+
+
+}
+
+.item_flex_clients {
+    background-color: blue;
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5%;
+    max-width: 30%;
+}
+
+
+
+
+
+
+
+
+.titles {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3em;
+    color: rgb(75, 0, 0);
+    margin-top: 400px;
+}
+
+.container_types {
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: auto auto auto;
+    gap: 5% 5%;
+}
+
+.item_type_title {
+    display: flex;
+    background-color: rgb(0, 0, 100);
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 10%;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.item_type_description {
+    padding: 1%;
+    background-color: rgba(172, 172, 255, 0.278);
+    font-size: 1.4em;
+    text-align: justify;
+    border-radius: 10%;
+    font-weight: 500;
+}
+
+#frase_JeffBezos {
+    text-align: center;
+    font-family: 'Square Peg';
+    font-size: 3em;
+    color: rgb(140, 0, 0);
+}
+
+#frase_JeffBezos:hover{
+transform: scale(1.2);
+transition: all 0.3s ease;
+}
+#quienes_somos {
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 1.6em;
+    font-weight: 500;
+}

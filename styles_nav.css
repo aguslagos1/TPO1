@@ -1,0 +1,20 @@
+.container_nav {
+    background-color: rgb(140, 0, 0);
+    padding: 0.5%;
+    /* display: inline; */
+    margin: 0px auto;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+
+.icon_nav_legend {
+    align-items: center;
+}
+
+/* para que las palabras no esten subrayadas */
+.container_nav a {
+    text-decoration: none;
+}
